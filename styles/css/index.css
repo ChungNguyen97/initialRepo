@@ -1,0 +1,40 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 100%;
+}
+
+#header {
+  border: 1px solid red;
+}
+#header nav.topNav ul.list-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+#header nav.topNav ul.list-menu li {
+  list-style-type: none;
+}
+#header nav.topNav ul.list-menu a {
+  text-decoration: none;
+  color: #333;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 6px 16px;
+  margin: 0 12px;
+}
+#header nav.topNav ul.list-menu a:hover {
+  color: red;
+}
+
+.form-register {
+  border: 1px solid blue;
+  width: fit-content;
+  padding: 12px 32px;
+}
+
+/*# sourceMappingURL=index.css.map */

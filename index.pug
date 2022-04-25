@@ -1,0 +1,58 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="./styles/css/index.css")
+    body 
+        .container 
+            header#header
+                section.banner
+                    img.img-banner(src="", alt="")
+                nav.topNav
+                    ul.list-menu
+                        li
+                            a(href="") Home
+                            
+                        li
+                            a(href="") About
+                        li
+                            a(href="") News
+            section.main-content
+                section.sidebar
+                section.main
+                    .item-post
+                        h3.post-title This is title of post
+                        p.des Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, fugiat!
+                        img.img.post(src="", alt="")
+
+                    //- Form - Register
+                    form.form-register(action="" method='get')
+                        .form-group
+                            label.label(for="email") Email
+                            input.email#email(type="email", name="email" placeholder="Enter your email")
+                        .from-group 
+                            label(for="username",class="label") Username
+                            input(type="text", name="username" id="username") 
+                        .form-group
+                            label(for="password" ) Password 
+                            input#password(type="password", name="password")
+                        input(type="submit", value="Register")
+                    
+                    //- Form -login
+                    form.form_login(id='form-login' method='post' action='/')
+                        label(for='usernameLogin') Username
+                        input#usernameLogin(type="text", name="username")
+
+                        
+                    a(href="http://") item1
+                    a(href="http://", target="_blank", rel="noopener noreferrer") 
+                    a(href="http://") 
+                    a(href="tel:+") 
+                    a(href="mailto:") 
+                    a(href="" target='_blank') 
